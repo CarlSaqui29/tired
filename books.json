@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "ID": "1",
+      "Type": "Religion and Philosophy",
+      "Title": "Traditions of Compassion",
+      "Author": "Lampert, K.",
+      "DatePublished": "2005",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "2",
+      "Type": "An Introduction to Buddhist Psychology",
+      "Title": "Traditions of Compassion",
+      "Author": "De Silva, P.",
+      "DatePublished": "2005",
+      "Rack": "1",
+      "Copies": 10
+    }
+  ]
+}

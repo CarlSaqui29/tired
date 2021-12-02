@@ -1,0 +1,22 @@
+{
+  "accounts": [
+    {
+      "Username": "20-06891",
+      "Password": "20-06891ca",
+      "FirstName": "Clarenz",
+      "LastName": "Ador",
+      "barrowBooks": [],
+      "reservedBooks": [],
+      "liabilities": 0
+    },
+    {
+      "Username": "20-06623",
+      "Password": "20-06623aa",
+      "FirstName": "Alexia Nicole",
+      "LastName": "Aguiz",
+      "barrowBooks": [],
+      "reservedBooks": [],
+      "liabilities": 0
+    }
+  ]
+}
