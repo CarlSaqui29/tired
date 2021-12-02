@@ -441,9 +441,15 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                 self.msg_success.exec_()
                 self.booksBarrowed_copy = []
                 change = money - self.fines
+                self.fines = 0
                 self.changeLABEL.setText(f"Change: {change}")
                 self.liabilitiesLABEL.setText(f"P {self.fines}.00")
                 self.money.clear()
+                self.all_data[self.whoIsUser]["liabilities"] = self.fines
+                all_data = {"accounts": self.all_data}
+                f = open("account.json", "w")
+                json.dump(all_data, f)
+                f.close()
                 self.calFine()
         except Exception as e:
             print(f"error in pay: {e}")
