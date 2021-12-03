@@ -11,11 +11,1316 @@
     },
     {
       "ID": "2",
-      "Type": "An Introduction to Buddhist Psychology",
-      "Title": "Traditions of Compassion",
+      "Type": "Religion and Philosophy",
+      "Title": "An Introduction to Buddhist Psychology",
       "Author": "De Silva, P.",
       "DatePublished": "2005",
       "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "3",
+      "Type": "Religion and Philosophy",
+      "Title": "Human Freedom and the Logic of Evil",
+      "Author": "Worsley, R.",
+      "DatePublished": "1996",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "4",
+      "Type": "Religion and Philosophy",
+      "Title": "Religion and Social Justice",
+      "Author": "Thakur, S",
+      "DatePublished": "1996",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "5",
+      "Type": "Religion and Philosophy",
+      "Title": "Relativism and Religion",
+      "Author": "Lewis, C.M.",
+      "DatePublished": "1995",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "6",
+      "Type": "Religion and Philosophy",
+      "Title": "Philosophy and the Belief in a Life after Death",
+      "Author": "Paterson, R.",
+      "DatePublished": "1995",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "7",
+      "Type": "Religion and Philosophy",
+      "Title": "Buddhism and Interfaith Dialogue",
+      "Author": "Heine, S.",
+      "DatePublished": "1995",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "8",
+      "Type": "Religion and Philosophy",
+      "Title": "Beyond Legitimation",
+      "Author": "Wiebe, D.",
+      "DatePublished": "1994",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "9",
+      "Type": "Religion and Philosophy",
+      "Title": "Is God Real?",
+      "Author": "Runzo, J.",
+      "DatePublished": "1993",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "10",
+      "Type": "Religion and Philosophy",
+      "Title": "God, Eternity and the Nature of Time",
+      "Author": "Padgett, A.",
+      "DatePublished": "1992",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "11",
+      "Type": "Religion and Philosophy",
+      "Title": " The Law of Karma",
+      "Author": "Reichenbach, B. ",
+      "DatePublished": "1990",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "12",
+      "Type": "Religion and Philosophy",
+      "Title": "Death and Afterlife",
+      "Author": "Davis, S.T.",
+      "DatePublished": "1989",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "13",
+      "Type": "Religion and Philosophy",
+      "Title": "Belief, Change and Forms of Life",
+      "Author": "Phillips, D. Z.",
+      "DatePublished": "1986",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "14",
+      "Type": "Religion and Philosophy",
+      "Title": "Cognitivity of Religion",
+      "Author": "Kellenberger, J.",
+      "DatePublished": "1985",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "15",
+      "Type": "Religion and Philosophy",
+      "Title": "Religion and Ultimate Well-Being",
+      "Author": "Sherry, P.",
+      "DatePublished": "1984",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "16",
+      "Type": "Social Science",
+      "Title": "On the Origin of Species",
+      "Author": "Charles Darwin",
+      "DatePublished": "1859",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "17",
+      "Type": "Social Science",
+      "Title": "Farm Engines and How to Run Them ",
+      "Author": "James Stephenson ",
+      "DatePublished": "2004",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "18",
+      "Type": "Social Science",
+      "Title": "Men of the Old Stone Age",
+      "Author": "Henry Fairfield Osborn",
+      "DatePublished": "1915",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "19",
+      "Type": "Social Science",
+      "Title": "Myths and Dreams",
+      "Author": "Edward Clodd",
+      "DatePublished": "1885",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "20",
+      "Type": "Social Science",
+      "Title": "The Expression of the Emotions in Man and Animals",
+      "Author": "Charles Darwin",
+      "DatePublished": "1872",
+      "Rack": "1",
+      "Copies": 10
+    },
+    {
+      "ID": "21",
+      "Type": "Social Science",
+      "Title": "The symbolism of Freemasonry",
+      "Author": "Albert Gallatin Mackey",
+      "DatePublished": "1882",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "22",
+      "Type": "Social Science",
+      "Title": "The Prehistoric World; Or, Vanished race",
+      "Author": "Emory Adams Allen",
+      "DatePublished": "1889",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "23",
+      "Type": "Social Science",
+      "Title": "Prehistoric Man",
+      "Author": "W.L.H. Duckworth",
+      "DatePublished": "1912",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "24",
+      "Type": "Social Science",
+      "Title": "Ancient Man, The beginning of Civilizations",
+      "Author": "Hendrik Willem van Loon",
+      "DatePublished": "1920",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "25",
+      "Type": "Social Science",
+      "Title": "The Races of Man",
+      "Author": "Joseph Deniker",
+      "DatePublished": "1900",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "26",
+      "Type": "Social Science",
+      "Title": "The Red Record",
+      "Author": "Ida B. Wells Barnett",
+      "DatePublished": "1895",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "27",
+      "Type": "Social Science",
+      "Title": "Malay Magic",
+      "Author": "Walter, W. Skeat",
+      "DatePublished": "1900",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "28",
+      "Type": "Social Science",
+      "Title": "The Underground Railroad from Slavery to Freedom",
+      "Author": "Wilbur H. Siebert",
+      "DatePublished": "1898",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "29",
+      "Type": "Social Science",
+      "Title": "The Spanish Influenza Pandemic of 1918",
+      "Author": "Oscar Jewell Harvey",
+      "DatePublished": "2011",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "30",
+      "Type": "Pure Science",
+      "Title": "Genetics, Agriculture, and Biotechnology",
+      "Author": "Walter Suza",
+      "DatePublished": "2021",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "31",
+      "Type": "Pure Science",
+      "Title": "General Biology I: Survey of Cellular Biology",
+      "Author": "Bartee and Anderson",
+      "DatePublished": "2018",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "32",
+      "Type": "Pure Science",
+      "Title": "General Biology II: Survey of Molecular Life and Genetics",
+      "Author": "Bartee and Anderson",
+      "DatePublished": "2018",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "33",
+      "Type": "Pure Science",
+      "Title": "All Things Flow: Fluid Mechanics for the Natural Sciences",
+      "Author": "W.D. Smyth",
+      "DatePublished": "2019",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "34",
+      "Type": "Pure Science",
+      "Title": "Future Energy: Opportunities & Challenges",
+      "Author": "Marchman III",
+      "DatePublished": "2004",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "35",
+      "Type": "Pure Science",
+      "Title": "Microbiology: A laboratory Experience",
+      "Author": "Holly Ahern",
+      "DatePublished": "2018",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "36",
+      "Type": "Engineering Books",
+      "Title": "Classical Mechanics",
+      "Author": "John R. Taylor",
+      "DatePublished": "2005",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "37",
+      "Type": "Engineering Books",
+      "Title": "Molecular Thermodynamics",
+      "Author": "McQuarrie, D. & Simon, J.",
+      "DatePublished": "1999",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "38",
+      "Type": "Engineering Books",
+      "Title": "An Introduction to Error Analysis",
+      "Author": "John R. Taylor",
+      "DatePublished": "1997",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "39",
+      "Type": "Engineering Books",
+      "Title": "Introduction to Molecular Thermodynamics",
+      "Author": "Hanson, R. & Green, S",
+      "DatePublished": "2008",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "40",
+      "Type": "Engineering Books",
+      "Title": "Introduction to Quantum Mechanics: A Time-Dependent Perspective",
+      "Author": "David Tannor",
+      "DatePublished": "2007",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "41",
+      "Type": "Engineering Books",
+      "Title": "A modern Approach to Quantum Mechanics 2nd Edition",
+      "Author": "John S. Townsend",
+      "DatePublished": "2013",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "42",
+      "Type": "Engineering Books",
+      "Title": "Statistical Mechanics",
+      "Author": "Donald A. McQuarrie",
+      "DatePublished": "2000",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "43",
+      "Type": "Engineering Books",
+      "Title": "Quantum Physics: A Fundamental Approach to Modern Physics",
+      "Author": "John S. Townsend",
+      "DatePublished": "2010",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "44",
+      "Type": "Engineering Books",
+      "Title": "Special Relativity",
+      "Author": "T.M. Helliwell",
+      "DatePublished": "2010",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "45",
+      "Type": "Engineering Books",
+      "Title": "Traffic and Highway Engineering 5TH Edition",
+      "Author": "Nicholas J. Garber",
+      "DatePublished": "2015",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "46",
+      "Type": "Engineering Books",
+      "Title": "Materials for Civil and Construction Engineers 4th Edition",
+      "Author": "Michael S. Mamlouk",
+      "DatePublished": "2017",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "47",
+      "Type": "Engineering Books",
+      "Title": "Steel Design 6th Edition",
+      "Author": "William T. Segui",
+      "DatePublished": "2018",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "48",
+      "Type": "Engineering Books",
+      "Title": "Introduction to Geotechnical Engineering 2nd Edition",
+      "Author": "Holtz, R. & Kovacs, W. & Sheahan, T.",
+      "DatePublished": "2011",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "49",
+      "Type": "Engineering Books",
+      "Title": "Water Resource Engineering 2nd Edition",
+      "Author": "Larry W. Mays",
+      "DatePublished": "2011",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "50",
+      "Type": "Engineering Books",
+      "Title": "Foundation Design 3rd Edition",
+      "Author": "Donald P. Coduto",
+      "DatePublished": "2016",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "51",
+      "Type": "Engineering Books",
+      "Title": "Minimum Design Loads for Buildings and Other Structures-3rd edition",
+      "Author": "American Society of Civil Engineers",
+      "DatePublished": "2013",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "52",
+      "Type": "Engineering Books",
+      "Title": "DC Electrical Circuit Analysis: A Practical Approach",
+      "Author": "James M. Fiore",
+      "DatePublished": "2020",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "53",
+      "Type": "Engineering Books",
+      "Title": "AC Electrical Circuit Analysis: A Practical Approach",
+      "Author": "James M. Fiore",
+      "DatePublished": "2020",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "54",
+      "Type": "Engineering Books",
+      "Title": "Electromagnetics Vol 2",
+      "Author": "Steven W. Ellingson",
+      "DatePublished": "2020",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "55",
+      "Type": "Engineering Books",
+      "Title": "DC Circuits",
+      "Author": "Chad Davis",
+      "DatePublished": "2016",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "56",
+      "Type": "Engineering Books",
+      "Title": "AC Circuits",
+      "Author": "Chad Davis",
+      "DatePublished": "2016",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "57",
+      "Type": "History",
+      "Title": "The Silk Roads",
+      "Author": "Peter Frankopan",
+      "DatePublished": "2017",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "58",
+      "Type": "History",
+      "Title": "Sapiens: A Brief History of Humankind",
+      "Author": "Yuval Noah Harari",
+      "DatePublished": "2015",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "59",
+      "Type": "History",
+      "Title": "The Darkening Age by Catherine",
+      "Author": "Catherine Nixey",
+      "DatePublished": "2018",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "60",
+      "Type": "History",
+      "Title": "Napoleon The Great",
+      "Author": "Andrew Roberts",
+      "DatePublished": "2015",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "61",
+      "Type": "History",
+      "Title": "A Short History of Nearly Everything",
+      "Author": "Bill Bryson",
+      "DatePublished": "2004",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "62",
+      "Type": "History",
+      "Title": "The Global Age",
+      "Author": "Ian Kershaw",
+      "DatePublished": "2020",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "63",
+      "Type": "History",
+      "Title": "Bright Shades",
+      "Author": "Sara Blakely",
+      "DatePublished": "2019",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "64",
+      "Type": "History",
+      "Title": "The History of the Renaissance World",
+      "Author": "Susan Wise Bauer",
+      "DatePublished": "2013",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "65",
+      "Type": "History",
+      "Title": "Forging the Modern World",
+      "Author": "Carter, J. & Warren, R.",
+      "DatePublished": "2015",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "66",
+      "Type": "History",
+      "Title": "History",
+      "Author": "Adam Hart-Davis",
+      "DatePublished": "2007",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "67",
+      "Type": "History",
+      "Title": "World History Biographies",
+      "Author": "Philip Wilkinson",
+      "DatePublished": "2007",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "68",
+      "Type": "History",
+      "Title": "Science and Technology in World History Vol. 2",
+      "Author": "David Deming",
+      "DatePublished": "2010",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "69",
+      "Type": "History",
+      "Title": "War in World History",
+      "Author": "Morillo, S. & Black, J. & Lococo, P.",
+      "DatePublished": "2008",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "70",
+      "Type": "History",
+      "Title": "Age of Ambition",
+      "Author": "Evan Osnos",
+      "DatePublished": "2015",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "71",
+      "Type": "History",
+      "Title": "The Color of Time",
+      "Author": "Dan Jones & Maria Amaral",
+      "DatePublished": "2018",
+      "Rack": "2",
+      "Copies": 10
+    },
+    {
+      "ID": "72",
+      "Type": "History",
+      "Title": "Atlas of World History",
+      "Author": "Patrick O�Brien",
+      "DatePublished": "2010",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "73",
+      "Type": "History",
+      "Title": "The History of the Philippines",
+      "Author": "Nadeau, K.",
+      "DatePublished": "2008",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "74",
+      "Type": "Arts and Music",
+      "Title": "The Goldfinch",
+      "Author": "Donna Tartt",
+      "DatePublished": "2013",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "75",
+      "Type": "Arts and Music",
+      "Title": "How Music Works",
+      "Author": "David Byrne",
+      "DatePublished": "2012",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "76",
+      "Type": "Arts and Music",
+      "Title": "The Story of Art",
+      "Author": "E.H. Gombrich",
+      "DatePublished": "1950",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "77",
+      "Type": "Arts and Music",
+      "Title": "Just Kids",
+      "Author": "Patti Smith",
+      "DatePublished": "2010",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "78",
+      "Type": "Arts and Music",
+      "Title": "Leonardo da Vinci",
+      "Author": "Walter Isaacson",
+      "DatePublished": "2017",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "79",
+      "Type": "Arts and Music",
+      "Title": "Steal Like an Artist",
+      "Author": "Austin Kleon",
+      "DatePublished": "2012",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "80",
+      "Type": "Arts and Music",
+      "Title": "Girl in a Band",
+      "Author": "Kim Gordon",
+      "DatePublished": "2015",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "81",
+      "Type": "Arts and Music",
+      "Title": "Musicophilia: Tales of Music and the Brain",
+      "Author": "Oliver Sacks",
+      "DatePublished": "2007",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "82",
+      "Type": "Arts and Music",
+      "Title": "The Agony and the Ecstasy",
+      "Author": "Irving stone",
+      "DatePublished": "1958",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "83",
+      "Type": "Arts and Music",
+      "Title": "Daisy Jones 7 The Six",
+      "Author": "Taylor Jenkins Reid",
+      "DatePublished": "2019",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "84",
+      "Type": "Arts and Music",
+      "Title": "Hunger Makes Me a Modern Girl",
+      "Author": "Carrie Brownstein",
+      "DatePublished": "2015",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "85",
+      "Type": "Arts and Music",
+      "Title": "The Art Forger",
+      "Author": "Barbara A. Shapiro",
+      "DatePublished": "2012",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "86",
+      "Type": "Arts and Music",
+      "Title": "Life",
+      "Author": "Keith Richards",
+      "DatePublished": "2012",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "87",
+      "Type": "Arts and Music",
+      "Title": "On Photography",
+      "Author": "Susan Sontag",
+      "DatePublished": "1973",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "88",
+      "Type": "Arts and Music",
+      "Title": "Drawn Together",
+      "Author": "Minh Le",
+      "DatePublished": "2018",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "89",
+      "Type": "Arts and Music",
+      "Title": "Because",
+      "Author": "Mo Willems",
+      "DatePublished": "2019",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "90",
+      "Type": "Arts and Music",
+      "Title": "The Music Shop",
+      "Author": "Rachel Joyce",
+      "DatePublished": "2017",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "91",
+      "Type": "Arts and Music",
+      "Title": "Color: A Natural History of the Palette",
+      "Author": "Victoria Finlay",
+      "DatePublished": "2003",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "92",
+      "Type": "Arts and Music",
+      "Title": "The Blazing World",
+      "Author": "Siri Hustvedt",
+      "DatePublished": "2014",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "93",
+      "Type": "Arts and Music",
+      "Title": "Wall and Piece",
+      "Author": "Banksy",
+      "DatePublished": "2005",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "94",
+      "Type": "Arts and Music",
+      "Title": "Love Is a Mix Tape: Life and Loss, One Song at a Time",
+      "Author": "Rob Sheffield",
+      "DatePublished": "2007",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "95",
+      "Type": "Arts and Music",
+      "Title": "No one Here Gets Out Alive",
+      "Author": "Danny Balliett",
+      "DatePublished": "1980",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "96",
+      "Type": "Accountancy",
+      "Title": "Government Accounting",
+      "Author": "Punzalan, A. & Cardona, M.",
+      "DatePublished": "2018",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "97",
+      "Type": "Accountancy",
+      "Title": "Partnership and Corporation Accounting 20th Edition",
+      "Author": "WIN Ballada",
+      "DatePublished": "2016",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "98",
+      "Type": "Accountancy",
+      "Title": "MBA Practical Accounting",
+      "Author": "Antonio J. Dayag",
+      "DatePublished": "2015",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "99",
+      "Type": "Accountancy",
+      "Title": "The Law on Partnerships and Private Corporations",
+      "Author": "Hector M. De Leon, Jr.",
+      "DatePublished": "2013",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "100",
+      "Type": "Accountancy",
+      "Title": "Financial Accounting Three",
+      "Author": "Valux, C. & Peralta, J. & Valix, A.",
+      "DatePublished": "2017",
+      "Rack": "3",
+      "Copies": 10
+    },
+    {
+      "ID": "101",
+      "Type": "Accountancy",
+      "Title": "Financial Management: Principles and Applications",
+      "Author": "Cabrera M.E.",
+      "DatePublished": "2015",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "102",
+      "Type": "Accountancy",
+      "Title": "Basic Accounting 20th Edition",
+      "Author": "WIN Ballada",
+      "DatePublished": "2015",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "103",
+      "Type": "Accountancy",
+      "Title": "Advanced Financial Accounting",
+      "Author": "Antonio J. Dayag",
+      "DatePublished": "2017",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "104",
+      "Type": "Accountancy",
+      "Title": "Financial Accounting Volume 1- First Part",
+      "Author": "Valux, C. & Peralta, J. & Valix, C.",
+      "DatePublished": "2016",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "105",
+      "Type": "Accountancy",
+      "Title": "Financial Accounting Volume 1- Second",
+      "Author": "Valux, C. & Peralta, J. & Valix, C.",
+      "DatePublished": "2016",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "106",
+      "Type": "Accountancy",
+      "Title": "Financial Accounting Volume 2",
+      "Author": "Valux, C. & Peralta, J. & Valix, C.",
+      "DatePublished": "2016",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "107",
+      "Type": "Accountancy",
+      "Title": "The Law on Obligations and Contracts",
+      "Author": "De Leon, H. & De Leon H. Jr.",
+      "DatePublished": "2014",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "108",
+      "Type": "Accountancy",
+      "Title": "The Law on Negotiable Instruments",
+      "Author": "De Leon, H. & De Leon H. Jr.",
+      "DatePublished": "2014",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "109",
+      "Type": "Accountancy",
+      "Title": "The Law on Sales, Agency and Credit Transactions",
+      "Author": "De Leon, H. & De Leon H. Jr.",
+      "DatePublished": "2014",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "110",
+      "Type": "Accountancy",
+      "Title": "Principles and Procedural Applications: Cost Accounting",
+      "Author": "Pedro P. Guerrero",
+      "DatePublished": "2014",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "111",
+      "Type": "Accountancy",
+      "Title": "Business and Transfer Taxation: Laws, Principles, and Applications",
+      "Author": "Rex B. Banggawan",
+      "DatePublished": "2017",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "112",
+      "Type": "Accountancy",
+      "Title": "Auditing Theory",
+      "Author": "Cabrera, M.A. & Cabrera, G.A.",
+      "DatePublished": "2017",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "113",
+      "Type": "Accountancy",
+      "Title": "Examination Reviewer: Auditing Problems",
+      "Author": "Gerardo S. Roque",
+      "DatePublished": "2016",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "114",
+      "Type": "Accountancy",
+      "Title": "Financial Management. Principles and Applications Volume 2",
+      "Author": "Cabrera, M.A.",
+      "DatePublished": "2015",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "115",
+      "Type": "Poetry",
+      "Title": "The Leaves of Grass",
+      "Author": "Walt Whitman",
+      "DatePublished": "1855",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "116",
+      "Type": "Poetry",
+      "Title": "Anthology of Really Important Modern Poetry",
+      "Author": "Kathryn & Ross Petras",
+      "DatePublished": "2012",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "117",
+      "Type": "Poetry",
+      "Title": "The sun and her flowers",
+      "Author": "Rupi Kaur",
+      "DatePublished": "2017",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "118",
+      "Type": "Poetry",
+      "Title": "Collected Poems",
+      "Author": "Edna St. Vincent Millay",
+      "DatePublished": "1917-1950",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "119",
+      "Type": "Poetry",
+      "Title": "Where the Sidewalk Ends",
+      "Author": "Shel Silverstein",
+      "DatePublished": "1974",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "120",
+      "Type": "Poetry",
+      "Title": "House of Light",
+      "Author": "Mary Oliver",
+      "DatePublished": "1990",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "121",
+      "Type": "Poetry",
+      "Title": "The princess saves herself in this one",
+      "Author": "Amanda Lovelace",
+      "DatePublished": "2017",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "122",
+      "Type": "Poetry",
+      "Title": "The Truth About Magic",
+      "Author": "Atticus",
+      "DatePublished": "2019",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "123",
+      "Type": "Poetry",
+      "Title": "Milk and Honey",
+      "Author": "Rupi Kaur",
+      "DatePublished": "2014",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "124",
+      "Type": "Poetry",
+      "Title": "The Sun and Her Flowers",
+      "Author": "Emma kar",
+      "DatePublished": "2017",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "125",
+      "Type": "Poetry",
+      "Title": "Ariel",
+      "Author": "Sylvia Plath",
+      "DatePublished": "1965",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "126",
+      "Type": "Poetry",
+      "Title": "The Poet X",
+      "Author": "Elizabeth Acevedo",
+      "DatePublished": "2018",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "127",
+      "Type": "Poetry",
+      "Title": "Night Sky with Exit Wounds",
+      "Author": "Ocean Vuong",
+      "DatePublished": "2016",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "128",
+      "Type": "Poetry",
+      "Title": "Crush",
+      "Author": "Richard Siken",
+      "DatePublished": "2005",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "129",
+      "Type": "Poetry",
+      "Title": "Salt",
+      "Author": "Nayyirah Waheed",
+      "DatePublished": "2013",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "130",
+      "Type": "Poetry",
+      "Title": "Love and Misadventure",
+      "Author": "Lang Leav",
+      "DatePublished": "2013",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "131",
+      "Type": "Poetry",
+      "Title": "Brown Girl Dreaming",
+      "Author": "Jacqueline Woodson",
+      "DatePublished": "2014",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "132",
+      "Type": "Poetry",
+      "Title": "A Thousand Mornings",
+      "Author": "Mary Oliver",
+      "DatePublished": "2012",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "133",
+      "Type": "Poetry",
+      "Title": "Home Body",
+      "Author": "Rupi Kaur",
+      "DatePublished": "2020",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "134",
+      "Type": "Poetry",
+      "Title": "Long Way Down",
+      "Author": "Jason Reynolds",
+      "DatePublished": "2017",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "135",
+      "Type": "Biography ",
+      "Title": "Steve Jobs",
+      "Author": "Walter Isaacson",
+      "DatePublished": "2011",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "136",
+      "Type": "Biography ",
+      "Title": "Becoming",
+      "Author": "Michelle Obama",
+      "DatePublished": "2018",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "137",
+      "Type": "Biography ",
+      "Title": "Elon Musk: Tesla, Space X, and the Quest for a Fantastic Future",
+      "Author": "Laura Hillenbrand",
+      "DatePublished": "2010",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "138",
+      "Type": "Biography ",
+      "Title": "John Adams",
+      "Author": "David McCullough",
+      "DatePublished": "2001",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "139",
+      "Type": "Biography ",
+      "Title": "Alexander Hamilton",
+      "Author": "Ron Chernow",
+      "DatePublished": "2004",
+      "Rack": "4",
+      "Copies": 10
+    },
+    {
+      "ID": "140",
+      "Type": "Biography ",
+      "Title": "Educated",
+      "Author": "Tara Westover",
+      "DatePublished": "2018",
+      "Rack": "5",
+      "Copies": 10
+    },
+    {
+      "ID": "141",
+      "Type": "Biography ",
+      "Title": "Einstein: His Life of Henrietta Lacks",
+      "Author": "Rebecca Skloot",
+      "DatePublished": "2009",
+      "Rack": "5",
+      "Copies": 10
+    },
+    {
+      "ID": "142",
+      "Type": "Biography ",
+      "Title": "Benjamin Franklin: An American Life",
+      "Author": "Walter Isaacson",
+      "DatePublished": "2003",
+      "Rack": "5",
+      "Copies": 10
+    },
+    {
+      "ID": "143",
+      "Type": "Biography ",
+      "Title": "A Promised Land",
+      "Author": "Barack Obama",
+      "DatePublished": "2020",
+      "Rack": "5",
+      "Copies": 10
+    },
+    {
+      "ID": "144",
+      "Type": "Biography ",
+      "Title": "The Diary of a Young Girl",
+      "Author": "Anne Frank",
+      "DatePublished": "1945",
+      "Rack": "5",
+      "Copies": 10
+    },
+    {
+      "ID": "145",
+      "Type": "Biography ",
+      "Title": "Bossypants",
+      "Author": "Tina Fey",
+      "DatePublished": "2011",
+      "Rack": "5",
+      "Copies": 10
+    },
+    {
+      "ID": "146",
+      "Type": "Biography ",
+      "Title": "Into the Wild",
+      "Author": "Jon Krakauer",
+      "DatePublished": "1996",
+      "Rack": "5",
+      "Copies": 10
+    },
+    {
+      "ID": "147",
+      "Type": "Biography ",
+      "Title": "Cleopatra: A Life",
+      "Author": "Stacy Schiff",
+      "DatePublished": "2010",
+      "Rack": "5",
       "Copies": 10
     }
   ]

@@ -27,7 +27,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
 
         # setting min max date
         self.today = date.today()
-        # self.dateEdit.setMinimumDate(self.today)
+        self.dateEdit.setMinimumDate(self.today)
         self.dateEdit.setMaximumDate(self.today + timedelta(days=10))
 
         # error messaege
@@ -112,34 +112,37 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
             self.listBARROW.addItem(done_filter[i])
 
     def login(self):
-        user = self.username.text()
-        passwrd = self.password.text()
-        self.reset()
+        try:
+            user = self.username.text()
+            passwrd = self.password.text()
+            self.reset()
 
-        for i in range(len(self.all_data)):
-            if user == self.all_data[i]["Username"] and passwrd == self.all_data[i]["Password"]:
-                self.username.clear()
-                self.password.clear()
-                self.showHome()
-                self.whoIsUser = i
-                self.booksBarrowed = self.all_data[self.whoIsUser]["barrowBooks"]
-                self.booksReserved = self.all_data[self.whoIsUser]["reservedBooks"]
-                name = self.all_data[self.whoIsUser]["FirstName"]
-                self.label_6.setText(f"Hi, {name}!")
-                self.fines = self.all_data[self.whoIsUser]["liabilities"]
+            for i in range(len(self.all_data)):
+                if user == self.all_data[i]["Username"] and passwrd == self.all_data[i]["Password"]:
+                    self.username.clear()
+                    self.password.clear()
+                    self.showHome()
+                    self.whoIsUser = i
+                    self.booksBarrowed = self.all_data[self.whoIsUser]["barrowBooks"]
+                    self.booksReserved = self.all_data[self.whoIsUser]["reservedBooks"]
+                    name = self.all_data[self.whoIsUser]["FirstName"]
+                    self.label_6.setText(f"Hi, {name}!")
+                    self.fines = self.all_data[self.whoIsUser]["liabilities"]
 
-            else:
-                self.username.clear()
-                self.password.clear()
-                self.authLABEL.show()
-        self.listHOME.clear()
-        self.listBARROW.clear()
-        books = self.all_books
-        for i in range(len(books)):
-            book = f"{books[i]['Type']} | {books[i]['Title']} | {books[i]['Author']} | {books[i]['DatePublished']}".upper()
-            self.listHOME.addItem(book)
-            self.listBARROW.addItem(book)
-            self.books_for_search.append(book)
+                else:
+                    self.username.clear()
+                    self.password.clear()
+                    self.authLABEL.show()
+            self.listHOME.clear()
+            self.listBARROW.clear()
+            books = self.all_books
+            for i in range(len(books)):
+                book = f"{books[i]['Type']} | {books[i]['Title']} | {books[i]['Author']} | {books[i]['DatePublished']}".upper()
+                self.listHOME.addItem(book)
+                self.listBARROW.addItem(book)
+                self.books_for_search.append(book)
+        except Exception as e:
+            print(f"error in login: {e}")
 
     def logout(self):
         if self.fines > 0:
@@ -300,13 +303,6 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                 copies += 1
                 self.all_books[i]["Copies"] = copies
                 del self.booksBarrowed[self.global_r]
-
-                # save updated copies in book json file
-                self.all_books[self.global_i]["Copies"] = copies
-                all_books = {"books": self.all_books}
-                f = open("books.json", "w")
-                json.dump(all_books, f)
-                f.close()
 
                 self.global_name = None
                 self.reset()
@@ -486,3 +482,5 @@ if __name__ == "__main__":
     iWindow = Ui_MainWindow()
     iWindow.show()
     sys.exit(app.exec_())
+
+
