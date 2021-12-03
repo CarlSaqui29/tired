@@ -7,7 +7,10 @@
       "LastName": "Ador",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "S.",
+      "Number": "09458414873",
+      "address": "Brgy. Malalay, Balayan, Batangas"
     },
     {
       "Username": "20-06623",
@@ -16,7 +19,10 @@
       "LastName": "Agquiz",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "M.",
+      "Number": "09297983806",
+      "address": "Brgy. Malalay, Balayan, Batangas"
     },
     {
       "Username": "20-07062",
@@ -25,7 +31,10 @@
       "LastName": "Aguilon",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "D.",
+      "Number": "0906394040",
+      "address": "Camilmil, Calapan City, Oriental Mindoro"
     },
     {
       "Username": "20-08316",
@@ -34,7 +43,10 @@
       "LastName": "Alaer",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "A.",
+      "Number": "09361855927",
+      "address": "Brgy. 11 Balayan, Batangas"
     },
     {
       "Username": "20-07056",
@@ -43,7 +55,10 @@
       "LastName": "Amora",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "B.",
+      "Number": "09358314174",
+      "address": "San Jose, Tanauan City, Batangas"
     },
     {
       "Username": "20-01574",
@@ -52,7 +67,10 @@
       "LastName": "Austria",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "A.",
+      "Number": "09632088060",
+      "address": "Pagaspas, Tanauan City, Batangas"
     },
     {
       "Username": "20-02373",
@@ -61,7 +79,10 @@
       "LastName": "Bagadiong",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "C.",
+      "Number": "09090715394",
+      "address": "Puting Lupa, Calamba City, Laguna"
     },
     {
       "Username": "20-08407",
@@ -70,7 +91,10 @@
       "LastName": "Bayungan",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "D.",
+      "Number": "09067638180",
+      "address": "Brgy. Pooc, Balayan, Batangas"
     },
     {
       "Username": "20-00873",
@@ -79,7 +103,10 @@
       "LastName": "Braza",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "I.",
+      "Number": "09167200500",
+      "address": "Mapulo, Taysan, Batangas"
     },
     {
       "Username": "20-04677",
@@ -88,7 +115,10 @@
       "LastName": "Cabantog",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "M.",
+      "Number": "09752173013",
+      "address": "Sangalang, Lemery, Batangas"
     },
     {
       "Username": "20-06401",
@@ -97,7 +127,10 @@
       "LastName": "Cabasis",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "A.",
+      "Number": "09288574344",
+      "address": "Navotas Balayan, Batangas"
     },
     {
       "Username": "20-07312",
@@ -106,7 +139,10 @@
       "LastName": "Camilon",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "B.",
+      "Number": "09514358656",
+      "address": "Dilao, Balayan, Batangas"
     },
     {
       "Username": "20-09226",
@@ -115,7 +151,10 @@
       "LastName": "Caralipio",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "J.",
+      "Number": "09285667025",
+      "address": "Talaga, Tanauan City, Batangas"
     },
     {
       "Username": "20-02972",
@@ -124,7 +163,10 @@
       "LastName": "Carpio",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "E.",
+      "Number": "09664702713",
+      "address": "Gulod, Laurel, Batangas"
     },
     {
       "Username": "20-05337",
@@ -133,7 +175,10 @@
       "LastName": "Catapang",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "G.",
+      "Number": "09090500754",
+      "address": "Dumuclay, Batangas City"
     },
     {
       "Username": "20-04242",
@@ -142,7 +187,10 @@
       "LastName": "De Castro",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "F.",
+      "Number": "09776146735",
+      "address": "Kumintang Ilaya, Batangas City"
     },
     {
       "Username": "20-03447",
@@ -151,7 +199,10 @@
       "LastName": "De Leon",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "C.",
+      "Number": "09995024891",
+      "address": "San Pioquinto, Malvar, Batangas"
     },
     {
       "Username": "20-73282",
@@ -160,7 +211,10 @@
       "LastName": "De Mesa",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "C.",
+      "Number": "09458952534",
+      "address": "Brgy. Lanatan, Balayan, Batangas"
     },
     {
       "Username": "20-07534",
@@ -169,7 +223,10 @@
       "LastName": "Dimaano",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "C.",
+      "Number": "09368921716",
+      "address": "Sawang, Lobo, Batangas "
     },
     {
       "Username": "20-03742",
@@ -178,7 +235,10 @@
       "LastName": "Eseque",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "A.",
+      "Number": "09565700599",
+      "address": "San Pablo City, Laguna"
     },
     {
       "Username": "20-03133",
@@ -187,7 +247,10 @@
       "LastName": "Esolana",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "",
+      "Number": "09455601619",
+      "address": "Canlubang, Calamba, Laguna"
     },
     {
       "Username": "20-04024",
@@ -196,7 +259,10 @@
       "LastName": "Hernandez",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "C.",
+      "Number": "09509002124",
+      "address": "Brgy. Trapiche 1, Tanauan City, Batangas"
     },
     {
       "Username": "20-06200",
@@ -205,7 +271,10 @@
       "LastName": "Kawada",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "A.",
+      "Number": "09066554592",
+      "address": "Brgy. Bungoy. Dolores, Quezon"
     },
     {
       "Username": "20-07360",
@@ -214,7 +283,10 @@
       "LastName": "Lajato",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "S.",
+      "Number": "09566199499",
+      "address": "213 Santiago, Malvar, Batangas "
     },
     {
       "Username": "20-01959",
@@ -223,7 +295,10 @@
       "LastName": "Laygo",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "E.",
+      "Number": "09367719750",
+      "address": "Brgy. 5, Lipa CIty, Batangas"
     },
     {
       "Username": "20-08303",
@@ -232,7 +307,10 @@
       "LastName": "Lepran",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "P.",
+      "Number": "09662875814",
+      "address": "Purok 1, Calicanto, Batangas City"
     },
     {
       "Username": "20-00732",
@@ -241,7 +319,10 @@
       "LastName": "Mag-araru",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "P.",
+      "Number": "09300456177",
+      "address": "San Pablo, Sto. Tomas City, Batangas"
     },
     {
       "Username": "20-00216",
@@ -250,7 +331,10 @@
       "LastName": "Marjes",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "F.",
+      "Number": "09081397120",
+      "address": "Anilao, Bongabong, Oriental Mindoro"
     },
     {
       "Username": "20-07350",
@@ -259,7 +343,10 @@
       "LastName": "Paglicawan",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "M.",
+      "Number": "09533324705",
+      "address": "Barangay Balansay, Mamburao, Occidental Mindoro"
     },
     {
       "Username": "20-02030",
@@ -268,7 +355,10 @@
       "LastName": "Pillosas",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "C.",
+      "Number": "09384149494",
+      "address": "San Pablo City, Laguna"
     },
     {
       "Username": "20-00416",
@@ -277,7 +367,10 @@
       "LastName": "Porto",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "B.",
+      "Number": "09107984782",
+      "address": "Buenavista East Candelaria, Quezon"
     },
     {
       "Username": "20-07145",
@@ -286,7 +379,10 @@
       "LastName": "Tampoc",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "R.",
+      "Number": "09774808319",
+      "address": "San Jose, Tanauan city, Batangas"
     },
     {
       "Username": "20-00006",
@@ -295,7 +391,10 @@
       "LastName": "Unico",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "T.",
+      "Number": "09999687320",
+      "address": "Darasa, Tanauan City, Batangas"
     },
     {
       "Username": "20-07712",
@@ -304,7 +403,10 @@
       "LastName": "Venzon",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "P.",
+      "Number": "09511907860",
+      "address": "Tactac, Balayan, Batangas"
     },
     {
       "Username": "20-04679",
@@ -313,7 +415,10 @@
       "LastName": "Villalobos",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "D.",
+      "Number": "09752398019",
+      "address": "Lumbang na Matanda, Calaca, Batangas"
     },
     {
       "Username": "20-00491",
@@ -322,7 +427,10 @@
       "LastName": "Villanueva",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "L.",
+      "Number": "09561359884",
+      "address": "Pakyas, Victoria, Oriental Mindoro"
     },
     {
       "Username": "20-04042",
@@ -331,7 +439,10 @@
       "LastName": "Windam",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "C.",
+      "Number": "09123248759",
+      "address": "Brgy. Luya, San Luis, Batangas"
     },
     {
       "Username": "20-08917",
@@ -340,16 +451,22 @@
       "LastName": "Yabyabin",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "B.",
+      "Number": "09995403633",
+      "address": "San Carlos, Lipa City, Batangas"
     },
     {
       "Username": "20-05196",
       "Password": "20-05196cz",
       "FirstName": "Crystal Mae",
-      "LastName": "Zuñiga",
+      "LastName": "Zuniga",
       "barrowBooks": [],
       "reservedBooks": [],
-      "liabilities": 0
+      "liabilities": 0,
+      "MI": "R",
+      "Number": "09169991054",
+      "address": "Brgy. Lamesa, Calamba, Laguna"
     }
   ]
 }

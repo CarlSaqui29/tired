@@ -43,6 +43,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         self.books_for_search = []
 
         self.loginFrame.show()
+        self.userinforFrame.hide()
         self.reserveFrame.hide()
         self.liabilitiesFrame.hide()
         self.homeFrame.hide()
@@ -68,6 +69,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         self.returnBTN.clicked.connect(self.showReturnFrame)
         self.reservedBTN.clicked.connect(self.showReservedFrame)
         self.liabilitiesBTN.clicked.connect(self.showLiabilitiesFrame)
+        self.userinfoBTN.clicked.connect(self.showUserInfo)
 
         # barrow page
         self.searchBARROW.textChanged.connect(self.filterSearchBarrow)
@@ -90,6 +92,20 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         # liabilities page
         self.payBTN.clicked.connect(self.pay)
         self.goHome.clicked.connect(self.showHome)
+
+        #user info frame
+        self.backHome.clicked.connect(self.showHome)
+
+    def showUserInfo(self):
+        self.homeFrame.hide()
+        self.userinforFrame.hide()
+        self.loginFrame.hide()
+        self.barrowFrame.hide()
+        self.returnFrame.hide()
+        self.reserveFrame.hide()
+        self.liabilitiesFrame.hide()
+        self.userinforFrame.show()
+        self.reset()
 
     def filterSearch(self, keyword):
         datalist = self.books_for_search
@@ -125,8 +141,17 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                     self.whoIsUser = i
                     self.booksBarrowed = self.all_data[self.whoIsUser]["barrowBooks"]
                     self.booksReserved = self.all_data[self.whoIsUser]["reservedBooks"]
-                    name = self.all_data[self.whoIsUser]["FirstName"]
-                    self.label_6.setText(f"Hi, {name}!")
+                    fname = self.all_data[self.whoIsUser]["FirstName"]
+                    lname = self.all_data[self.whoIsUser]["LastName"]
+                    sr = self.all_data[self.whoIsUser]['Username']
+                    m = self.all_data[self.whoIsUser]["MI"]
+                    cnumber = self.all_data[self.whoIsUser]["Number"]
+                    address = self.all_data[self.whoIsUser]["address"]
+                    self.srLABEL.setText(f"SR-Code: {sr}")
+                    self.nLABEL.setText(f"Name: {fname} {m} {lname}")
+                    self.cLABEL.setText(f"Contact No.: {cnumber}")
+                    self.aLABEL.setText(f"Address: {address}")
+                    self.label_6.setText(f"Hi, {fname}!")
                     self.fines = self.all_data[self.whoIsUser]["liabilities"]
 
                 else:
@@ -137,7 +162,8 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
             self.listBARROW.clear()
             books = self.all_books
             for i in range(len(books)):
-                book = f"{books[i]['Type']} | {books[i]['Title']} | {books[i]['Author']} | {books[i]['DatePublished']}".upper()
+                book = f"{books[i]['Type']} | {books[i]['Title']} | {books[i]['Author']} | {books[i]['DatePublished']}".upper(
+                )
                 self.listHOME.addItem(book)
                 self.listBARROW.addItem(book)
                 self.books_for_search.append(book)
@@ -151,6 +177,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         else:
             self.authLABEL.hide()
             self.homeFrame.hide()
+            self.userinforFrame.hide()
             self.loginFrame.show()
             self.barrowFrame.hide()
             self.returnFrame.hide()
@@ -159,6 +186,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
 
     def showHome(self):
         self.homeFrame.show()
+        self.userinforFrame.hide()
         self.loginFrame.hide()
         self.barrowFrame.hide()
         self.returnFrame.hide()
@@ -171,6 +199,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         try:
             self.homeFrame.hide()
             self.loginFrame.hide()
+            self.userinforFrame.hide()
             self.barrowFrame.show()
             self.returnFrame.hide()
             self.reserveFrame.hide()
@@ -188,6 +217,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         try:
             self.homeFrame.hide()
             self.loginFrame.hide()
+            self.userinforFrame.hide()
             self.barrowFrame.hide()
             self.returnFrame.show()
             self.reserveFrame.hide()
@@ -206,6 +236,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
     def showReservedFrame(self):
         try:
             self.homeFrame.hide()
+            self.userinforFrame.hide()
             self.loginFrame.hide()
             self.barrowFrame.hide()
             self.returnFrame.hide()
@@ -218,6 +249,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
     def showLiabilitiesFrame(self):
         try:
             self.homeFrame.hide()
+            self.userinforFrame.hide()
             self.loginFrame.hide()
             self.barrowFrame.hide()
             self.returnFrame.hide()
@@ -427,6 +459,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         # liabilities page
         self.changeLABEL.clear()
         self.money.clear()
+        # USERiNFO
 
     def calFine(self):
         try:
@@ -482,5 +515,3 @@ if __name__ == "__main__":
     iWindow = Ui_MainWindow()
     iWindow.show()
     sys.exit(app.exec_())
-
-
