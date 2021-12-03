@@ -20,6 +20,8 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.loginFrame = QtWidgets.QFrame(self.centralwidget)
         self.loginFrame.setGeometry(QtCore.QRect(0, 0, 801, 601))
+        self.loginFrame.setStyleSheet("color: rgb(149, 246, 237);\n"
+"background-color: rgb(32, 35, 52);")
         self.loginFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.loginFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.loginFrame.setObjectName("loginFrame")
@@ -49,6 +51,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.authLABEL.setFont(font)
+        self.authLABEL.setStyleSheet("color: rgb(255, 0, 0);")
         self.authLABEL.setAlignment(QtCore.Qt.AlignCenter)
         self.authLABEL.setObjectName("authLABEL")
         self.loginBTN = QtWidgets.QPushButton(self.loginFrame)
@@ -56,10 +59,14 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.loginBTN.setFont(font)
+        self.loginBTN.setStyleSheet("background-color: rgb(255, 200, 81);\n"
+"color: rgb(255, 255, 255);")
         self.loginBTN.setObjectName("loginBTN")
         self.homeFrame = QtWidgets.QFrame(self.centralwidget)
         self.homeFrame.setGeometry(QtCore.QRect(0, -1, 791, 641))
-        self.homeFrame.setStyleSheet("background-color: rgb(236, 236, 236);")
+        self.homeFrame.setStyleSheet("background-color: rgb(236, 236, 236);\n"
+"color: rgb(149, 246, 237);\n"
+"background-color: rgb(33, 35, 47);")
         self.homeFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.homeFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.homeFrame.setObjectName("homeFrame")
@@ -69,6 +76,7 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         self.listHOME.setFont(font)
         self.listHOME.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);\n"
 "")
         self.listHOME.setObjectName("listHOME")
         self.label_2 = QtWidgets.QLabel(self.homeFrame)
@@ -83,7 +91,8 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.searchHOME.setFont(font)
-        self.searchHOME.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.searchHOME.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);")
         self.searchHOME.setClearButtonEnabled(True)
         self.searchHOME.setObjectName("searchHOME")
         self.barrowBTN = QtWidgets.QPushButton(self.homeFrame)
@@ -91,6 +100,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.barrowBTN.setFont(font)
+        self.barrowBTN.setStyleSheet("color: rgb(255, 255, 255);background-color: rgb(255, 200, 81);")
         self.barrowBTN.setObjectName("barrowBTN")
         self.label_3 = QtWidgets.QLabel(self.homeFrame)
         self.label_3.setGeometry(QtCore.QRect(170, 80, 611, 31))
@@ -111,18 +121,24 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.returnBTN.setFont(font)
+        self.returnBTN.setStyleSheet("color: rgb(255, 255, 255);\n"
+"background-color: rgb(255, 200, 81);")
         self.returnBTN.setObjectName("returnBTN")
         self.liabilitiesBTN = QtWidgets.QPushButton(self.homeFrame)
         self.liabilitiesBTN.setGeometry(QtCore.QRect(10, 290, 151, 51))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.liabilitiesBTN.setFont(font)
+        self.liabilitiesBTN.setStyleSheet("background-color: rgb(255, 200, 81);\n"
+"color: rgb(255, 255, 255);")
         self.liabilitiesBTN.setObjectName("liabilitiesBTN")
         self.reservedBTN = QtWidgets.QPushButton(self.homeFrame)
         self.reservedBTN.setGeometry(QtCore.QRect(10, 350, 151, 51))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.reservedBTN.setFont(font)
+        self.reservedBTN.setStyleSheet("background-color: rgb(255, 200, 81);\n"
+"color: rgb(255, 255, 255);")
         self.reservedBTN.setObjectName("reservedBTN")
         self.list_infoHOME = QtWidgets.QListWidget(self.homeFrame)
         self.list_infoHOME.setGeometry(QtCore.QRect(10, 440, 771, 151))
@@ -130,6 +146,7 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         self.list_infoHOME.setFont(font)
         self.list_infoHOME.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);\n"
 "")
         self.list_infoHOME.setViewMode(QtWidgets.QListView.ListMode)
         self.list_infoHOME.setModelColumn(0)
@@ -153,10 +170,13 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.logoutBTN.setFont(font)
+        self.logoutBTN.setStyleSheet("background-color: rgb(255, 200, 81);\n"
+"color: rgb(255, 255, 255);")
         self.logoutBTN.setObjectName("logoutBTN")
         self.barrowFrame = QtWidgets.QFrame(self.centralwidget)
         self.barrowFrame.setGeometry(QtCore.QRect(0, 0, 791, 641))
-        self.barrowFrame.setStyleSheet("background-color: rgb(236, 236, 236);")
+        self.barrowFrame.setStyleSheet("color: rgb(147, 238, 223);\n"
+"background-color: rgb(32, 36, 48);")
         self.barrowFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.barrowFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.barrowFrame.setObjectName("barrowFrame")
@@ -166,6 +186,7 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         self.listBARROW.setFont(font)
         self.listBARROW.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);\n"
 "")
         self.listBARROW.setObjectName("listBARROW")
         self.label_7 = QtWidgets.QLabel(self.barrowFrame)
@@ -180,7 +201,8 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.searchBARROW.setFont(font)
-        self.searchBARROW.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.searchBARROW.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);")
         self.searchBARROW.setClearButtonEnabled(True)
         self.searchBARROW.setObjectName("searchBARROW")
         self.label_8 = QtWidgets.QLabel(self.barrowFrame)
@@ -202,12 +224,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.barrowBookBTN.setFont(font)
+        self.barrowBookBTN.setStyleSheet("background-color: rgb(222, 215, 101);\n"
+"background-color: rgb(255, 200, 81);\n"
+"color: rgb(255, 255, 255);")
         self.barrowBookBTN.setObjectName("barrowBookBTN")
         self.reservedBookBTN = QtWidgets.QPushButton(self.barrowFrame)
         self.reservedBookBTN.setGeometry(QtCore.QRect(10, 280, 151, 51))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.reservedBookBTN.setFont(font)
+        self.reservedBookBTN.setStyleSheet("background-color: rgb(255, 200, 81);\n"
+"color: rgb(255, 255, 255);")
         self.reservedBookBTN.setObjectName("reservedBookBTN")
         self.list_infoBARROW = QtWidgets.QListWidget(self.barrowFrame)
         self.list_infoBARROW.setGeometry(QtCore.QRect(10, 440, 771, 151))
@@ -215,6 +242,7 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         self.list_infoBARROW.setFont(font)
         self.list_infoBARROW.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);\n"
 "")
         self.list_infoBARROW.setViewMode(QtWidgets.QListView.ListMode)
         self.list_infoBARROW.setModelColumn(0)
@@ -231,12 +259,16 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.backHomeBTN.setFont(font)
+        self.backHomeBTN.setStyleSheet("background-color: rgb(255, 200, 81);\n"
+"color: rgb(255, 255, 255);")
         self.backHomeBTN.setObjectName("backHomeBTN")
         self.dateEdit = QtWidgets.QDateEdit(self.barrowFrame)
         self.dateEdit.setGeometry(QtCore.QRect(10, 160, 151, 41))
         font = QtGui.QFont()
         font.setPointSize(12)
         self.dateEdit.setFont(font)
+        self.dateEdit.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);")
         self.dateEdit.setCalendarPopup(True)
         self.dateEdit.setObjectName("dateEdit")
         self.totalBarrowedLABEL = QtWidgets.QLabel(self.barrowFrame)
@@ -248,7 +280,9 @@ class Ui_MainWindow(object):
         self.totalBarrowedLABEL.setObjectName("totalBarrowedLABEL")
         self.returnFrame = QtWidgets.QFrame(self.centralwidget)
         self.returnFrame.setGeometry(QtCore.QRect(0, 0, 791, 641))
-        self.returnFrame.setStyleSheet("background-color: rgb(236, 236, 236);")
+        self.returnFrame.setStyleSheet("background-color: rgb(236, 236, 236);\n"
+"color: rgb(149, 246, 237);\n"
+"background-color: rgb(32, 35, 52);")
         self.returnFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.returnFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.returnFrame.setObjectName("returnFrame")
@@ -258,6 +292,7 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         self.listRETURN.setFont(font)
         self.listRETURN.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);\n"
 "")
         self.listRETURN.setObjectName("listRETURN")
         self.label_11 = QtWidgets.QLabel(self.returnFrame)
@@ -286,6 +321,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.returnBookBTN.setFont(font)
+        self.returnBookBTN.setStyleSheet("color: rgb(255, 255, 255);background-color: rgb(255, 200, 81);")
         self.returnBookBTN.setObjectName("returnBookBTN")
         self.list_infoRETURN = QtWidgets.QListWidget(self.returnFrame)
         self.list_infoRETURN.setGeometry(QtCore.QRect(10, 440, 771, 151))
@@ -293,6 +329,7 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         self.list_infoRETURN.setFont(font)
         self.list_infoRETURN.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);\n"
 "")
         self.list_infoRETURN.setViewMode(QtWidgets.QListView.ListMode)
         self.list_infoRETURN.setModelColumn(0)
@@ -309,6 +346,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.backHomeBTN_2.setFont(font)
+        self.backHomeBTN_2.setStyleSheet("color: rgb(255, 255, 255);background-color: rgb(255, 200, 81);")
         self.backHomeBTN_2.setObjectName("backHomeBTN_2")
         self.totalBarrowedLABEL_2 = QtWidgets.QLabel(self.returnFrame)
         self.totalBarrowedLABEL_2.setGeometry(QtCore.QRect(170, 80, 401, 31))
@@ -349,7 +387,9 @@ class Ui_MainWindow(object):
         self.penaltyLABEL.setObjectName("penaltyLABEL")
         self.liabilitiesFrame = QtWidgets.QFrame(self.centralwidget)
         self.liabilitiesFrame.setGeometry(QtCore.QRect(0, 0, 791, 641))
-        self.liabilitiesFrame.setStyleSheet("background-color: rgb(236, 236, 236);")
+        self.liabilitiesFrame.setStyleSheet("background-color: rgb(236, 236, 236);\n"
+"color: rgb(149, 246, 237);\n"
+"background-color: rgb(32, 35, 52);")
         self.liabilitiesFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.liabilitiesFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.liabilitiesFrame.setObjectName("liabilitiesFrame")
@@ -392,6 +432,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.payBTN.setFont(font)
+        self.payBTN.setStyleSheet("color: rgb(255, 255, 255);background-color: rgb(255, 200, 81);")
         self.payBTN.setObjectName("payBTN")
         self.label_18 = QtWidgets.QLabel(self.liabilitiesFrame)
         self.label_18.setGeometry(QtCore.QRect(280, 200, 231, 21))
@@ -405,10 +446,13 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.goHome.setFont(font)
+        self.goHome.setStyleSheet("color: rgb(255, 255, 255);background-color: rgb(255, 200, 81);")
         self.goHome.setObjectName("goHome")
         self.reserveFrame = QtWidgets.QFrame(self.centralwidget)
         self.reserveFrame.setGeometry(QtCore.QRect(0, 0, 791, 641))
-        self.reserveFrame.setStyleSheet("background-color: rgb(236, 236, 236);")
+        self.reserveFrame.setStyleSheet("background-color: rgb(236, 236, 236);\n"
+"background-color: rgb(32, 35, 52);\n"
+"color: rgb(149, 246, 237);")
         self.reserveFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.reserveFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.reserveFrame.setObjectName("reserveFrame")
@@ -418,6 +462,7 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         self.listReserved.setFont(font)
         self.listReserved.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);\n"
 "")
         self.listReserved.setObjectName("listReserved")
         self.label_19 = QtWidgets.QLabel(self.reserveFrame)
@@ -446,6 +491,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(16)
         self.backBTN.setFont(font)
+        self.backBTN.setStyleSheet("color: rgb(255, 255, 255);background-color: rgb(255, 200, 81);")
         self.backBTN.setObjectName("backBTN")
         self.returnFrame.raise_()
         self.reserveFrame.raise_()
