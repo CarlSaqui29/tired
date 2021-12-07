@@ -93,7 +93,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         self.payBTN.clicked.connect(self.pay)
         self.goHome.clicked.connect(self.showHome)
 
-        #user info frame
+        # user info frame
         self.backHome.clicked.connect(self.showHome)
 
     def showUserInfo(self):
@@ -140,6 +140,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                     self.showHome()
                     self.whoIsUser = i
                     self.booksBarrowed = self.all_data[self.whoIsUser]["barrowBooks"]
+                    self.booksBarrowed_copy = self.booksBarrowed
                     self.booksReserved = self.all_data[self.whoIsUser]["reservedBooks"]
                     fname = self.all_data[self.whoIsUser]["FirstName"]
                     lname = self.all_data[self.whoIsUser]["LastName"]
@@ -465,6 +466,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         try:
             self.fines = 0
             allBarrowed = self.booksBarrowed_copy
+
             for i in range(len(allBarrowed)):
                 dueDate = allBarrowed[i][1]
                 # check if overdue
