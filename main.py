@@ -28,7 +28,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
 
         # setting min max date
         self.today = date.today()
-        self.dateEdit.setMinimumDate(self.today)
+        # self.dateEdit.setMinimumDate(self.today)
         self.dateEdit.setMaximumDate(self.today + timedelta(days=10))
 
         # error messaege
@@ -155,6 +155,8 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                     self.aLABEL.setText(f"Address: {address}")
                     self.label_6.setText(f"Hi, {fname}!")
                     self.fines = self.all_data[self.whoIsUser]["liabilities"]
+                    print(self.booksBarrowed_copy)
+                    print(self.booksBarrowed)
 
                 else:
                     self.username.clear()
@@ -266,6 +268,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
             self.reserveFrame.hide()
             self.liabilitiesFrame.show()
             self.liabilitiesLABEL.setText(f"P {self.fines}.00")
+            self.calFine()
 
         except Exception as e:
             print(f"error in showLiabilitiesFrame: {e}")
@@ -341,7 +344,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                 self.msg.setText('Please select book first')
                 self.msg.exec_()
             else:
-                if self.ssignalss == True:
+                if self.ssignalss == True and self.fines > 0:
                     self.msg.setText(
                         'Pay your liabilities first before returning this book.')
                     self.msg.exec_()
@@ -485,7 +488,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
     def calFine(self):
         try:
             self.fines = 0
-            allBarrowed = self.booksBarrowed
+            allBarrowed = self.booksBarrowed_copy
 
             for i in range(len(allBarrowed)):
                 dueDate = allBarrowed[i][1]
