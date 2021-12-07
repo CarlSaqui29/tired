@@ -14,6 +14,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         super(Ui_MainWindow, self).__init__()
         self.setupUi(self)
         # self.setWindowFlags(Qt.FramelessWindowHint)
+        self.ssignalss = False  # for not allowing to return book if ithas penalty
 
         f = open('account.json', )
         data = json.load(f)
@@ -140,7 +141,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                     self.showHome()
                     self.whoIsUser = i
                     self.booksBarrowed = self.all_data[self.whoIsUser]["barrowBooks"]
-                    self.booksBarrowed_copy = self.booksBarrowed
+                    # self.booksBarrowed_copy = self.booksBarrowed
                     self.booksReserved = self.all_data[self.whoIsUser]["reservedBooks"]
                     fname = self.all_data[self.whoIsUser]["FirstName"]
                     lname = self.all_data[self.whoIsUser]["LastName"]
@@ -195,6 +196,10 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
         self.liabilitiesFrame.hide()
         self.reset()
         self.calFine()
+        self.totalBarrowedLABEL.setText(
+            f"Total Barrowed Books: {len(self.booksBarrowed)}")
+        self.totalBarrowedLABEL_2.setText(
+            f"Total Barrowed Books: {len(self.booksBarrowed)}")
 
     def showBarrowFrame(self):
         try:
@@ -231,6 +236,10 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                 self.listRETURN.addItem(
                     f"{bBooks[i][0][1]} | {bBooks[i][0][2]} | {bBooks[i][0][3]} | {bBooks[i][0][4]}".upper())
                 self.calFine()
+            self.totalBarrowedLABEL.setText(
+                f"Total Barrowed Books: {len(self.booksBarrowed)}")
+            self.totalBarrowedLABEL_2.setText(
+                f"Total Barrowed Books: {len(self.booksBarrowed)}")
         except Exception as e:
             print(f"error at showReturnFrame: {e}")
 
@@ -318,8 +327,10 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
 
             if newDueDate < self.today:
                 self.penaltyLABEL.setText("Over Due: P 10.00")
+                self.ssignalss = True
             else:
                 self.penaltyLABEL.setText("No penalty")
+                self.ssignalss = False
 
         except Exception as e:
             print(f"error in whatBookIsSelectedReturn: {e}")
@@ -330,33 +341,38 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                 self.msg.setText('Please select book first')
                 self.msg.exec_()
             else:
+                if self.ssignalss == True:
+                    self.msg.setText(
+                        'Pay your liabilities first before returning this book.')
+                    self.msg.exec_()
+                else:
+                    i = self.books_for_search.index(
+                        self.global_name)  # index in
+                    copies = self.all_books[i]["Copies"]
+                    copies += 1
+                    self.all_books[i]["Copies"] = copies
+                    del self.booksBarrowed[self.global_r]
 
-                i = self.books_for_search.index(self.global_name)  # index in
-                copies = self.all_books[i]["Copies"]
-                copies += 1
-                self.all_books[i]["Copies"] = copies
-                del self.booksBarrowed[self.global_r]
+                    self.global_name = None
+                    self.reset()
 
-                self.global_name = None
-                self.reset()
+                    bBooks = self.booksBarrowed
+                    self.listRETURN.clear()
+                    for i in range(len(bBooks)):
+                        self.listRETURN.addItem(
+                            f"{bBooks[i][0][1]} | {bBooks[i][0][2]} | {bBooks[i][0][3]} | {bBooks[i][0][4]}".upper())
+                    self.totalBarrowedLABEL.setText(
+                        f"Total Barrowed Books: {len(self.booksBarrowed)}")
+                    self.totalBarrowedLABEL_2.setText(
+                        f"Total Barrowed Books: {len(self.booksBarrowed)}")
 
-                bBooks = self.booksBarrowed
-                self.listRETURN.clear()
-                for i in range(len(bBooks)):
-                    self.listRETURN.addItem(
-                        f"{bBooks[i][0][1]} | {bBooks[i][0][2]} | {bBooks[i][0][3]} | {bBooks[i][0][4]}".upper())
-                self.totalBarrowedLABEL.setText(
-                    f"Total Barrowed Books: {len(self.booksBarrowed)}")
-                self.totalBarrowedLABEL_2.setText(
-                    f"Total Barrowed Books: {len(self.booksBarrowed)}")
-
-                # save in account json file
-                self.all_data[self.whoIsUser]["barrowBooks"] = self.booksBarrowed
-                # print(self.all_data)
-                all_data = {"accounts": self.all_data}
-                f = open("account.json", "w")
-                json.dump(all_data, f)
-                f.close()
+                    # save in account json file
+                    self.all_data[self.whoIsUser]["barrowBooks"] = self.booksBarrowed
+                    # print(self.all_data)
+                    all_data = {"accounts": self.all_data}
+                    f = open("account.json", "w")
+                    json.dump(all_data, f)
+                    f.close()
 
         except Exception as e:
             print(f"error in returnThisBook: {e}")
@@ -367,6 +383,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                 self.msg.setText('Please select book first')
                 self.msg.exec_()
             else:
+
                 if len(self.booksBarrowed) == 5:
                     self.msg.setText('You can only barrow 5 books.')
                     self.msg.exec_()
@@ -387,6 +404,9 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                                     books["DatePublished"], books["Rack"], books["Copies"]], datee]
                         self.booksBarrowed.append(newList)
                         self.booksBarrowed_copy.append(newList)
+                        print(self.booksBarrowed)
+
+                        print(self.booksBarrowed_copy)
                         self.totalBarrowedLABEL.setText(
                             f"Total Barrowed Books: {len(self.booksBarrowed)}")
                         self.totalBarrowedLABEL_2.setText(
@@ -465,7 +485,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
     def calFine(self):
         try:
             self.fines = 0
-            allBarrowed = self.booksBarrowed_copy
+            allBarrowed = self.booksBarrowed
 
             for i in range(len(allBarrowed)):
                 dueDate = allBarrowed[i][1]
