@@ -28,7 +28,7 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
 
         # setting min max date
         self.today = date.today()
-        # self.dateEdit.setMinimumDate(self.today)
+        self.dateEdit.setMinimumDate(self.today)
         self.dateEdit.setMaximumDate(self.today + timedelta(days=10))
 
         # error messaege
@@ -488,24 +488,27 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
     def calFine(self):
         try:
             self.fines = 0
-            allBarrowed = self.booksBarrowed_copy
+            allBarrowed = self.booksBarrowed
 
             for i in range(len(allBarrowed)):
                 dueDate = allBarrowed[i][1]
-                # check if overdue
-                day = int(dueDate[0:2])
-                month = int(dueDate[3:5])
-                yr = int(dueDate[-4:])
-                newDueDate = date(yr, month, day)
+                if dueDate == 'Paid':
+                    print('All ready paid')
+                else:
+                    # check if overdue
+                    day = int(dueDate[0:2])
+                    month = int(dueDate[3:5])
+                    yr = int(dueDate[-4:])
+                    newDueDate = date(yr, month, day)
 
-                if newDueDate < self.today:
-                    self.fines += 10
-                    # update and save the data in the json account
-                    self.all_data[self.whoIsUser]["liabilities"] = self.fines
-                    all_data = {"accounts": self.all_data}
-                    f = open("account.json", "w")
-                    json.dump(all_data, f)
-                    f.close()
+                    if newDueDate < self.today:
+                        self.fines += 10
+                        # update and save the data in the json account
+                        self.all_data[self.whoIsUser]["liabilities"] = self.fines
+                        all_data = {"accounts": self.all_data}
+                        f = open("account.json", "w")
+                        json.dump(all_data, f)
+                        f.close()
         except Exception as e:
             print(f"error in calfines: {e}")
 
@@ -517,6 +520,15 @@ class Ui_MainWindow(Ui_MainWindow, QMainWindow):
                 self.msg.exec_()
                 self.changeLABEL.setText("Change:")
             else:
+                allBarrowed = self.booksBarrowed
+
+                for i in range(len(allBarrowed)):
+                    allBarrowed[i][1] = 'Paid'
+                    self.all_data[self.whoIsUser]["barrowBooks"] = allBarrowed
+                    all_data = {"accounts": self.all_data}
+                    f = open("account.json", "w")
+                    json.dump(all_data, f)
+                    f.close()
                 self.msg_success.setText("Thank you for paying!!")
                 self.msg_success.exec_()
                 self.booksBarrowed_copy = []
